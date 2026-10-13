@@ -1,0 +1,42 @@
+{
+  "service": "gmail",
+  "action": "repeat_live_retrieval",
+  "retrieval_date": "2026-10-13",
+  "query": "subject:TEST",
+  "max_results": 5,
+  "result_count": 5,
+  "records": [
+    {
+      "source_id": "1a1366bf104322b9",
+      "subject": "TEST 10 - Project Documentation Checklist",
+      "email_ts": "2026-10-13T11:00:05-07:00"
+    },
+    {
+      "source_id": "1a1366be9595d94b",
+      "subject": "TEST 09 - Dashboard Search Testing",
+      "email_ts": "2026-10-13T11:00:04-07:00"
+    },
+    {
+      "source_id": "1a1366be5029bd98",
+      "subject": "TEST 08 - Quarterly Goals Update",
+      "email_ts": "2026-10-13T13:00:02-05:00"
+    },
+    {
+      "source_id": "1a1366bd84d20749",
+      "subject": "TEST 07 - Fitness App Feature Request",
+      "email_ts": "2026-10-13T20:59:59+03:00"
+    },
+    {
+      "source_id": "1a1366bd2d0dd969",
+      "subject": "TEST 06 - Real Estate Property Analysis",
+      "email_ts": "2026-10-13T10:59:58-07:00"
+    }
+  ],
+  "comparison_to_initial_export": {
+    "original_path": "dataExports/gmail/email-10.json",
+    "matching_field": "source_id",
+    "verified_id": "1a1366bf104322b9",
+    "matched": true
+  },
+  "limitations": "Records are provider metadata from a second live connected Gmail search. This evidence is not an automatic local download or a complete message-body export."
+}
