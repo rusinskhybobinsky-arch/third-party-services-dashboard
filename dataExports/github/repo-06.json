@@ -1,0 +1,12 @@
+{
+  "service": "github",
+  "name": "movie-review-app",
+  "owner": "rusinskhybobinsky-arch",
+  "visibility": "public",
+  "url": "https://github.com/rusinskhybobinsky-arch/movie-review-app",
+  "description": "An application for rating movies and keeping track of favorite films.",
+  "source_id": "1417626348",
+  "default_branch": "main",
+  "metadata_source": "GitHub get_repo verified live",
+  "exported_at": "2026-10-13T18:38:57.788033+00:00"
+}

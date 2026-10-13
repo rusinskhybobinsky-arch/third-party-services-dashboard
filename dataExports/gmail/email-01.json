@@ -1,0 +1,22 @@
+{
+  "service": "gmail",
+  "subject": "TEST 01 - Inventory Restock Request",
+  "from": "rusinskhybobinsky@gmail.com",
+  "to": [
+    "rusinskhybobinsky@gmail.com"
+  ],
+  "body_excerpt": "Our sample warehouse has 14 notebooks remaining and the reorder threshold is 20 units. Please prepare a mock purchase order for 50 additional notebooks by Friday.",
+  "source_note": "Message sent through connected Gmail; body_excerpt is a summarized test-data excerpt, not a verbatim complete email.",
+  "source_id": "1a1366ba241545a0",
+  "thread_id": "1a1366ba241545a0",
+  "email_ts": "2026-10-13T10:59:46-07:00",
+  "cc": [],
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "body": "Hi Inventory Team,\n\nOur sample warehouse has 14 notebooks remaining and the reorder threshold is 20 units. Please prepare a mock purchase order for 50 additional notebooks by Friday.\n\nThanks,\nAlex Morgan\nOperations Coordinator\n\nFictional test message for the third-party services dashboard assignment.",
+  "metadata_source": "Gmail message search verified live; email body reconstructed from exact sent test text",
+  "exported_at": "2026-10-13T18:38:57.786520+00:00"
+}

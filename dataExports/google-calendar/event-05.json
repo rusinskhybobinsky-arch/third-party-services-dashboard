@@ -1,0 +1,13 @@
+{
+  "service": "google-calendar",
+  "title": "TEST - Marketing Campaign Planning",
+  "start": "2026-10-21T11:00:00-04:00",
+  "end": "2026-10-21T12:00:00-04:00",
+  "timezone": "America/New_York",
+  "calendar_id": "rusinskhybobinsky@gmail.com",
+  "note": "Fictional event for dashboard testing.",
+  "source_id": "8d0n1h9pk6a4il0durvgjrqrug",
+  "description": "Fictional test event for the third-party services dashboard assignment.\n\nDraft the fictional fall advertising campaign and compare sample social-media budget options.",
+  "metadata_source": "Google Calendar search verified live",
+  "exported_at": "2026-10-13T18:38:57.787979+00:00"
+}

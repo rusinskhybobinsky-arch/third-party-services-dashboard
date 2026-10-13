@@ -1,0 +1,22 @@
+{
+  "service": "gmail",
+  "subject": "TEST 04 - Marketing Campaign Proposal",
+  "from": "rusinskhybobinsky@gmail.com",
+  "to": [
+    "rusinskhybobinsky@gmail.com"
+  ],
+  "body_excerpt": "For the sample fall campaign, we propose a $300 social media advertising budget and two weekly posts. The campaign goal is to increase landing page visits by 15 percent.",
+  "source_note": "Message sent through connected Gmail; body_excerpt is a summarized test-data excerpt, not a verbatim complete email.",
+  "source_id": "1a1366bbe32850c7",
+  "thread_id": "1a1366bbe32850c7",
+  "email_ts": "2026-10-13T10:59:53-07:00",
+  "cc": [],
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "body": "Hello Marketing Team,\n\nFor the sample fall campaign, we propose a $300 social media advertising budget and two weekly posts. The campaign goal is to increase landing page visits by 15 percent.\n\nThanks,\nSam Patel\nMarketing Coordinator\n\nFictional test message for the third-party services dashboard assignment.",
+  "metadata_source": "Gmail message search verified live; email body reconstructed from exact sent test text",
+  "exported_at": "2026-10-13T18:38:57.787479+00:00"
+}

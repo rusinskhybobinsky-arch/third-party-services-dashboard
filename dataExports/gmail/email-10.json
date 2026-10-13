@@ -1,0 +1,22 @@
+{
+  "service": "gmail",
+  "subject": "TEST 10 - Project Documentation Checklist",
+  "from": "rusinskhybobinsky@gmail.com",
+  "to": [
+    "rusinskhybobinsky@gmail.com"
+  ],
+  "body_excerpt": "Before the sample project demonstration, verify the README, localStorageFormats.md, downloaded data folders, dashboard instructions, screenshots, and presentation. Do not include passwords or tokens.",
+  "source_note": "Message sent through connected Gmail; body_excerpt is a summarized test-data excerpt, not a verbatim complete email.",
+  "source_id": "1a1366bf104322b9",
+  "thread_id": "1a1366bf104322b9",
+  "email_ts": "2026-10-13T11:00:05-07:00",
+  "cc": [],
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "body": "Hello,\n\nBefore the sample project demonstration, verify the README, localStorageFormats.md, downloaded data folders, dashboard instructions, screenshots, and presentation. Do not include passwords or tokens.\n\nBest,\nAvery Bell\nDocumentation Lead\n\nFictional test message for the third-party services dashboard assignment.",
+  "metadata_source": "Gmail message search verified live; email body reconstructed from exact sent test text",
+  "exported_at": "2026-10-13T18:38:57.789696+00:00"
+}

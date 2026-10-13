@@ -1,0 +1,13 @@
+{
+  "service": "google-calendar",
+  "title": "TEST - Monthly Budget Review",
+  "start": "2026-10-16T11:00:00-04:00",
+  "end": "2026-10-16T12:00:00-04:00",
+  "timezone": "America/New_York",
+  "calendar_id": "rusinskhybobinsky@gmail.com",
+  "note": "Fictional event for dashboard testing.",
+  "source_id": "j22589l4t50d4vid3f8357jvho",
+  "description": "Fictional test event for the third-party services dashboard assignment.\n\nReview hypothetical spending categories and savings targets for the student budget tracker.",
+  "metadata_source": "Google Calendar search verified live",
+  "exported_at": "2026-10-13T18:38:57.787047+00:00"
+}

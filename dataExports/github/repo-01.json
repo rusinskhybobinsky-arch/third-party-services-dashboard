@@ -1,0 +1,12 @@
+{
+  "service": "github",
+  "name": "sample-inventory-app",
+  "owner": "rusinskhybobinsky-arch",
+  "visibility": "public",
+  "url": "https://github.com/rusinskhybobinsky-arch/sample-inventory-app",
+  "description": "A sample inventory tracking application for a small business.",
+  "source_id": "1417614788",
+  "default_branch": "main",
+  "metadata_source": "GitHub get_repo verified live",
+  "exported_at": "2026-10-13T18:38:57.786330+00:00"
+}

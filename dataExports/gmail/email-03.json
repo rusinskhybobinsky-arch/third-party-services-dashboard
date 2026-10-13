@@ -1,0 +1,22 @@
+{
+  "service": "gmail",
+  "subject": "TEST 03 - Website Homepage Feedback",
+  "from": "rusinskhybobinsky@gmail.com",
+  "to": [
+    "rusinskhybobinsky@gmail.com"
+  ],
+  "body_excerpt": "The draft homepage is easy to navigate, but the contact button should be more visible. Please also check the layout on smaller phone screens and add a short services overview.",
+  "source_note": "Message sent through connected Gmail; body_excerpt is a summarized test-data excerpt, not a verbatim complete email.",
+  "source_id": "1a1366bb73755744",
+  "thread_id": "1a1366bb73755744",
+  "email_ts": "2026-10-13T12:59:51-05:00",
+  "cc": [],
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "body": "Hi Design Team,\n\nThe draft homepage is easy to navigate, but the contact button should be more visible. Please also check the layout on smaller phone screens and add a short services overview.\n\nBest,\nJordan Lee\nProject Reviewer\n\nFictional test message for the third-party services dashboard assignment.",
+  "metadata_source": "Gmail message search verified live; email body reconstructed from exact sent test text",
+  "exported_at": "2026-10-13T18:38:57.787175+00:00"
+}

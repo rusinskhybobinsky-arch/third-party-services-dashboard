@@ -1,0 +1,22 @@
+{
+  "service": "gmail",
+  "subject": "TEST 09 - Dashboard Search Testing",
+  "from": "rusinskhybobinsky@gmail.com",
+  "to": [
+    "rusinskhybobinsky@gmail.com"
+  ],
+  "body_excerpt": "Please confirm that the prototype dashboard can search exported Gmail messages, GitHub repositories, and Notion pages. Try sample keywords including budget, marketing, fitness, and property.",
+  "source_note": "Message sent through connected Gmail; body_excerpt is a summarized test-data excerpt, not a verbatim complete email.",
+  "source_id": "1a1366be9595d94b",
+  "thread_id": "1a1366be9595d94b",
+  "email_ts": "2026-10-13T11:00:04-07:00",
+  "cc": [],
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "body": "Hi Data Team,\n\nPlease confirm that the prototype dashboard can search exported Gmail messages, GitHub repositories, and Notion pages. Try sample keywords including budget, marketing, fitness, and property.\n\nThanks,\nRiley Scott\nData Analyst\n\nFictional test message for the third-party services dashboard assignment.",
+  "metadata_source": "Gmail message search verified live; email body reconstructed from exact sent test text",
+  "exported_at": "2026-10-13T18:38:57.789364+00:00"
+}
