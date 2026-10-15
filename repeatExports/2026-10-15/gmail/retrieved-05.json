@@ -1,0 +1,8 @@
+{
+  "service": "gmail",
+  "source_id": "1a1366bd2d0dd969",
+  "subject": "TEST 06 - Real Estate Property Analysis",
+  "email_ts": "2026-10-13T10:59:58-07:00",
+  "source": "connected Gmail search: subject:TEST",
+  "detail_level": "provider search metadata, not complete body"
+}
