@@ -1,6 +1,27 @@
 
 {
   "mcpServers": {
+    "filesystem-server-default": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/tmp"
+      ]
+    },
+    "everything-server-default": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-everything"
+      ]
+    },
+    "example-server-default": {
+      "type": "streamable-http",
+      "url": "https://example-server.modelcontextprotocol.io/mcp"
+    },
     "github": {
       "type": "streamable-http",
       "url": "https://api.githubcopilot.com/mcp/"
