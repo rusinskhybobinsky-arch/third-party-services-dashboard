@@ -1,6 +1,6 @@
 ---
 name: data-export
-   description: Export test data from Gmail, GitHub, Notion and Google Calendar into dataExports/ as JSON, validate it, and view it in the local dashboard.
+description: Export test data from Gmail, GitHub, Notion and Google Calendar into dataExports/ as JSON, validate it, and view it in the local dashboard.
 ---
 
 # Third-Party Services Data Export Skill
