@@ -1,8 +1,0 @@
-{
-  "service": "gmail",
-  "source_id": "1a1366be9595d94b",
-  "subject": "TEST 09 - Dashboard Search Testing",
-  "email_ts": "2026-10-13T11:00:04-07:00",
-  "source": "connected Gmail search: subject:TEST",
-  "detail_level": "provider search metadata, not complete body"
-}

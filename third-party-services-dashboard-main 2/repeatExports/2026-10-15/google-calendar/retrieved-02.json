@@ -1,9 +1,0 @@
-{
-  "service": "google-calendar",
-  "source_id": "j22589l4t50d4vid3f8357jvho",
-  "title": "TEST - Monthly Budget Review",
-  "start": "2026-10-16T08:00:00-07:00",
-  "end": "2026-10-16T09:00:00-07:00",
-  "source": "connected Google Calendar search, Oct 14-31 2026",
-  "detail_level": "event search metadata"
-}

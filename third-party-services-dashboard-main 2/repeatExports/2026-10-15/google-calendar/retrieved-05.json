@@ -1,9 +1,0 @@
-{
-  "service": "google-calendar",
-  "source_id": "8d0n1h9pk6a4il0durvgjrqrug",
-  "title": "TEST - Marketing Campaign Planning",
-  "start": "2026-10-21T08:00:00-07:00",
-  "end": "2026-10-21T09:00:00-07:00",
-  "source": "connected Google Calendar search, Oct 14-31 2026",
-  "detail_level": "event search metadata"
-}

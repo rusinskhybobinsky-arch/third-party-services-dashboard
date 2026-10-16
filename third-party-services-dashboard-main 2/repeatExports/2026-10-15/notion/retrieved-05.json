@@ -1,8 +1,0 @@
-{
-  "service": "notion",
-  "source_id": "3f8aad82-4f04-800c-91de-c7347286c956",
-  "title": "Team Meeting Notes",
-  "url": "https://app.notion.com/p/3f8aad824f04800c91dec7347286c956?pvs=204",
-  "source": "connected Notion search",
-  "detail_level": "page listing metadata, not full page blocks"
-}
