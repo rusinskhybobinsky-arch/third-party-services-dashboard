@@ -1,0 +1,13 @@
+{
+  "service": "google-calendar",
+  "title": "TEST - Dashboard Search Testing",
+  "start": "2026-10-27T11:00:00-04:00",
+  "end": "2026-10-27T12:00:00-04:00",
+  "timezone": "America/New_York",
+  "calendar_id": "rusinskhybobinsky@gmail.com",
+  "note": "Fictional event for dashboard testing.",
+  "source_id": "3tej511fe031ue1nhb611ush08",
+  "description": "Fictional test event for the third-party services dashboard assignment.\n\nCheck whether locally exported test records can be searched across Gmail, GitHub, Notion, and Calendar.",
+  "metadata_source": "Google Calendar search verified live",
+  "exported_at": "2026-10-13T18:38:57.789523+00:00"
+}

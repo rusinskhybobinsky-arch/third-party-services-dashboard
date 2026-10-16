@@ -1,0 +1,11 @@
+{
+  "service": "notion",
+  "title": "Team Meeting Notes",
+  "page_id": "3f8aad82-4f04-800c-91de-c7347286c956",
+  "url": "https://app.notion.com/p/3f8aad824f04800c91dec7347286c956",
+  "content_summary": "Fictional meeting: project progress, budgeting challenges, research tasks, priorities.",
+  "source_note": "Summary of accessible Notion test page, not a full-fidelity block export.",
+  "content": "Meeting: Sample Business Planning Discussion\nDate: October 12, 2026\nAgenda:\n1. Review current project progress.\n2. Discuss challenges with budgeting.\n3. Identify research tasks.\n4. Set priorities for the following week.\nDecisions:\n- Focus on finishing the financial forecast.\n- Prepare a competitor comparison.\n- Organize all project documents in one location.\nAction items:\n- Complete the expense estimate.\n- Review marketing opportunities.\n- Prepare a project progress summary.\nThese are fictional meeting notes created for testing.",
+  "metadata_source": "Notion page located and inspected using connected Notion fetch; content normalized from original authored test text rather than raw Notion block payload",
+  "exported_at": "2026-10-13T18:38:57.789457+00:00"
+}

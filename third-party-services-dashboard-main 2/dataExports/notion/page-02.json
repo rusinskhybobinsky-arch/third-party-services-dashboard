@@ -1,0 +1,11 @@
+{
+  "service": "notion",
+  "title": "Weekly Project Tasks",
+  "page_id": "3f8aad82-4f04-807e-aa3b-cd677ffbeb71",
+  "url": "https://app.notion.com/p/3f8aad824f04807eaa3bcd677ffbeb71",
+  "content_summary": "Monday research; Tuesday budget; Wednesday competitors; Thursday organize documents; Friday review priorities.",
+  "source_note": "Summary of accessible Notion test page, not a full-fidelity block export.",
+  "content": "Weekly Project Tasks\n- Monday: Research potential business ideas.\n- Tuesday: Review startup expenses and create a budget.\n- Wednesday: Compare competitors and market opportunities.\n- Thursday: Organize project documents.\n- Friday: Review progress and plan next week's priorities.\nWeekly Goal: Complete the initial research and budget for a small business project.",
+  "metadata_source": "Notion page located and inspected using connected Notion fetch; content normalized from original authored test text rather than raw Notion block payload",
+  "exported_at": "2026-10-13T18:38:57.786984+00:00"
+}

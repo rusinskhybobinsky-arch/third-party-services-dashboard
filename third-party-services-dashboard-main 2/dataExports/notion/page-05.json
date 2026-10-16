@@ -1,0 +1,11 @@
+{
+  "service": "notion",
+  "title": "Fitness Goals and Workout Plan",
+  "page_id": "3f8aad82-4f04-8084-9b7d-fe77e52465f5",
+  "url": "https://app.notion.com/p/3f8aad824f0480849b7dfe77e52465f5",
+  "content_summary": "Workout schedule for chest, back, legs, shoulders, and cardio; goal: 16 workouts monthly.",
+  "source_note": "Summary of accessible Notion test page, not a full-fidelity block export.",
+  "content": "Fitness Goals and Workout Plan\nThe goal is to build strength and improve overall fitness through consistent workouts.\nMonday: Chest and triceps\nTuesday: Back and biceps\nWednesday: Rest or light cardio\nThursday: Legs\nFriday: Shoulders and arms\nSunday: Cardio or recreational sports\nProgress will be measured by tracking exercise weights, repetitions, and workout consistency.\nMonthly goal: Complete at least 16 workouts.",
+  "metadata_source": "Notion page located and inspected using connected Notion fetch; content normalized from original authored test text rather than raw Notion block payload",
+  "exported_at": "2026-10-13T18:38:57.787923+00:00"
+}

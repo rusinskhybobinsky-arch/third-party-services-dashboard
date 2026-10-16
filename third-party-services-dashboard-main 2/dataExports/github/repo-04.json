@@ -1,0 +1,12 @@
+{
+  "service": "github",
+  "name": "personal-finance-calculator",
+  "owner": "rusinskhybobinsky-arch",
+  "visibility": "public",
+  "url": "https://github.com/rusinskhybobinsky-arch/personal-finance-calculator",
+  "description": "A tool for calculating savings, investments, and monthly expenses.",
+  "source_id": "1417623650",
+  "default_branch": "main",
+  "metadata_source": "GitHub get_repo verified live",
+  "exported_at": "2026-10-13T18:38:57.787426+00:00"
+}

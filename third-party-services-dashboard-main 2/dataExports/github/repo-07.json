@@ -1,0 +1,12 @@
+{
+  "service": "github",
+  "name": "fitness-workout-tracker",
+  "owner": "rusinskhybobinsky-arch",
+  "visibility": "public",
+  "url": "https://github.com/rusinskhybobinsky-arch/fitness-workout-tracker",
+  "description": "An application for recording workouts, exercises, and fitness progress.",
+  "source_id": "1417627729",
+  "default_branch": "main",
+  "metadata_source": "GitHub get_repo verified live",
+  "exported_at": "2026-10-13T18:38:57.788320+00:00"
+}

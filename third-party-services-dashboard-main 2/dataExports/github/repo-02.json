@@ -1,0 +1,12 @@
+{
+  "service": "github",
+  "name": "student-budget-tracker",
+  "owner": "rusinskhybobinsky-arch",
+  "visibility": "public",
+  "url": "https://github.com/rusinskhybobinsky-arch/student-budget-tracker",
+  "description": "A simple application for tracking student expenses and monthly budgets.",
+  "source_id": "1417618951",
+  "default_branch": "main",
+  "metadata_source": "GitHub get_repo verified live",
+  "exported_at": "2026-10-13T18:38:57.786785+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "service": "notion",
+  "title": "Quarterly Business Goals",
+  "page_id": "3f8aad82-4f04-8028-bc79-f0f27cecbf09",
+  "url": "https://app.notion.com/p/3f8aad824f048028bc79f0f27cecbf09",
+  "content_summary": "Research three business ideas, develop forecast, prototype website, make marketing plan.",
+  "source_note": "Summary of accessible Notion test page, not a full-fidelity block export.",
+  "content": "The following are sample business goals for the next three months.\nGoal 1: Complete market research for three business ideas.\nGoal 2: Develop a basic financial model.\nGoal 3: Build a simple business website prototype.\nGoal 4: Create a marketing plan with a realistic budget.\nGoal 5: Review progress and identify improvement opportunities.\nSuccess metrics:\n- Three completed market research summaries\n- One financial forecast\n- One working website prototype\n- One marketing plan\nEnd-of-quarter review: Evaluate results and decide which business idea is most promising.",
+  "metadata_source": "Notion page located and inspected using connected Notion fetch; content normalized from original authored test text rather than raw Notion block payload",
+  "exported_at": "2026-10-13T18:38:57.789759+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "service": "google-calendar",
+  "source_id": "26g2p0snble0mj5fkkv1tockps",
+  "title": "TEST - Inventory Restock Check",
+  "start": "2026-10-19T07:00:00-07:00",
+  "end": "2026-10-19T08:00:00-07:00",
+  "source": "connected Google Calendar search, Oct 14-31 2026",
+  "detail_level": "event search metadata"
+}

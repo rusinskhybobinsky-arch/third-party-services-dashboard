@@ -1,0 +1,8 @@
+{
+  "service": "gmail",
+  "source_id": "1a1366be5029bd98",
+  "subject": "TEST 08 - Quarterly Goals Update",
+  "email_ts": "2026-10-13T13:00:02-05:00",
+  "source": "connected Gmail search: subject:TEST",
+  "detail_level": "provider search metadata, not complete body"
+}

@@ -1,0 +1,11 @@
+{
+  "service": "notion",
+  "title": "Real Estate Investment Research",
+  "page_id": "3f8aad82-4f04-8039-a479-cf0a720f8d15",
+  "url": "https://app.notion.com/p/3f8aad824f048039a479cf0a720f8d15",
+  "content_summary": "Hypothetical property A $350,000 and $2,400 rent; property B $425,000 and $2,900 rent.",
+  "source_note": "Summary of accessible Notion test page, not a full-fidelity block export.",
+  "content": "The purpose of this research is to compare potential rental property investments.\nSample Property A:\n- Purchase price: $350,000\n- Monthly rent: $2,400\n- Estimated monthly operating expenses: $800\nSample Property B:\n- Purchase price: $425,000\n- Monthly rent: $2,900\n- Estimated monthly operating expenses: $950\nImportant factors include location, vacancy rates, maintenance costs, financing, and cash flow.\nNext step: Calculate expected investment returns and compare both properties. All figures are hypothetical.",
+  "metadata_source": "Notion page located and inspected using connected Notion fetch; content normalized from original authored test text rather than raw Notion block payload",
+  "exported_at": "2026-10-13T18:38:57.788453+00:00"
+}
