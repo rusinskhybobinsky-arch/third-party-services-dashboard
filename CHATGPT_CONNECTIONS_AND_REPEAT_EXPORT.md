@@ -1,21 +1,107 @@
-ChatGPT Connections, MCP, and Repeat Retrieval
-Implementation
-The instructor approved ChatGPT as an alternative to Claude Code for the entire assignment. The original exports were collected via ChatGPT connections to Gmail, GitHub, Notion, and Google Calendar.
-The project also has a public .mcp.json containing credential-free MCP server URLs for those four services. MCP Inspector testing established that:
-- GitHub MCP connected, exposed tools, and successfully fetched this repository's README.md.
-- Notion MCP connected and displayed its tools; a completed content retrieval was not confirmed.
-- Gmail MCP and Google Calendar MCP have entries in the JSON, but were not independently authenticated or tested.
-ChatGPT-connected applications and local MCP servers are different connection methods. Adding a URL to .mcp.json does not authenticate the service.
-Exports and repeat retrieval
-dataExports/ contains 10 test JSON records per service, organized into four service folders. These are normalized snapshots with metadata, not full native API exports.
-repeatExports/2026-10-15/ contains five later metadata search/list results per service (20 total), obtained after the original records. These refer to existing test objects, not newly generated messages/pages/events/repositories. See its RETRIEVAL_LOG.md for search details. An earlier repeat Gmail search is captured in repeat_gmail_retrieval.json.
-How to repeat
-1. Enable the four relevant ChatGPT service connections.
-2. Request test-item retrieval for each service with stable source identifiers and available timestamps.
-3. Review results and save each record as UTF-8 JSON in a service-specific directory; preserve original snapshots.
-4. Run python3 validate_exports.py to check the required keys and counts.
-5. Run python3 server.py and search locally at http://127.0.0.1:8000.
-6. For another retrieval, write new records under a dated repeatExports/ folder and document the queries and metadata returned.
-This process requires manual file-saving and is not an unattended one-click export. The dashboard searches local files rather than live provider APIs. The current demo video is edited from screenshots, not a continuous live demonstration.
-Security
-No access tokens should be placed in public .mcp.json or any committed file. Authentication for actual MCP connections must be provided separately. Revoke any tokens previously shown in screenshots or uploads.
+
+# ChatGPT Connections, MCP Setup & Repeat Exports
+
+**HW3 — Third-Party Services Dashboard**
+
+## 1. Project Implementation
+
+This project uses ChatGPT-connected applications to retrieve test data from four services:
+
+- Gmail
+- GitHub
+- Notion
+- Google Calendar
+
+The instructor approved using ChatGPT instead of Claude Code for the assignment.
+
+The repository also includes a `.mcp.json` file containing MCP server endpoints for all four services.
+
+## 2. MCP Connection Status
+
+| Service | MCP Configuration | Verified Functionality |
+|---|---|---|
+| GitHub | Configured | Connected and retrieved README.md |
+| Notion | Configured | Connected and listed available tools |
+| Gmail | Configured | Not independently authenticated or tested through MCP |
+| Google Calendar | Configured | Not independently authenticated or tested through MCP |
+
+The original data retrieval used ChatGPT's connected applications. These are separate from the MCP servers listed in `.mcp.json`.
+
+MCP authentication credentials are intentionally excluded from the public repository.
+
+## 3. Original Data Exports
+
+The `dataExports/` directory contains 40 JSON snapshots.
+
+| Service | Original Records |
+|---|---:|
+| Gmail | 10 |
+| GitHub | 10 |
+| Notion | 10 |
+| Google Calendar | 10 |
+| **Total** | **40** |
+
+Each service has its own folder. Records contain source identifiers and available metadata.
+
+These files are structured test-data snapshots, not complete unmodified provider API responses. Some content was reconstructed or normalized.
+
+## 4. Repeat Retrieval
+
+A second round of connected-service retrieval was performed on October 15, 2026.
+
+The results are stored in:
+
+`repeatExports/2026-10-15/`
+
+| Service | Additional Records |
+|---|---:|
+| Gmail | 5 |
+| GitHub | 5 |
+| Notion | 5 |
+| Google Calendar | 5 |
+| **Total** | **20** |
+
+The additional records contain metadata retrieved from existing test items rather than newly created records.
+
+The retrieval queries and limitations are documented in `repeatExports/2026-10-15/RETRIEVAL_LOG.md`.
+
+An earlier Gmail retrieval is documented in `repeat_gmail_retrieval.json`.
+
+## 5. Repeatable Export Workflow
+
+1. Open ChatGPT with the four service connections enabled.
+2. Retrieve test items, including source IDs, timestamps, and available metadata.
+3. Review the returned information.
+4. Save the records as UTF-8 JSON files in the appropriate service folders.
+5. Run `python3 validate_exports.py` to validate the original export structure.
+6. Run `python3 server.py` to launch the local search dashboard.
+7. Save future retrievals in dated folders under `repeatExports/`.
+
+The workflow requires manually saving retrieved data. It is not an unattended or one-click automated export process.
+
+## 6. Dashboard
+
+Start the application using:
+
+`python3 server.py`
+
+Open **http://127.0.0.1:8000**.
+
+The dashboard searches the saved local JSON files and supports searching across all services or filtering by individual service.
+
+It does not query the live services when performing a dashboard search.
+
+## 7. Presentation and Demonstration
+
+The repository includes:
+
+- `third_party_services_presentation.pptx`
+- `third_party_services_demo_final.mp4`
+
+The demonstration video is edited from screenshots rather than recorded as one continuous live session.
+
+## 8. Security
+
+No passwords, API keys, or access tokens should be stored in this public GitHub repository.
+
+MCP services requiring authentication must be authorized separately. Any previously exposed access tokens should be revoked.
