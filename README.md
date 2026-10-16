@@ -1,19 +1,84 @@
-Third Party Services Dashboard
-Local searchable dashboard of sample data retrieved from Gmail, GitHub, Notion, and Google Calendar. The instructor approved ChatGPT as an alternative to Claude Code.
-Contents
-- dataExports/: 10 JSON snapshots per service (40 original records)
-- repeatExports/2026-10-15/: 5 additional retrieval-metadata snapshots per service (20 records) and a retrieval log
-- server.py: Python local dashboard for searching all four services
-- validate_exports.py: validates the original JSON export structure
-- .claude/skills/data-export/SKILL.md: documented AI-assisted retrieval procedure
-- .mcp.json: credential-free MCP server configuration for GitHub, Notion, Gmail, and Google Calendar
-- third_party_services_presentation.pptx: presentation
-- third_party_services_demo_final.mp4: demonstration video
-Run locally
-Run python3 validate_exports.py, then python3 server.py in the project folder. Open http://127.0.0.1:8000 and search all services or filter by one service. Stop the server with Control+C.
-Verified MCP functionality
-GitHub MCP was connected in MCP Inspector and successfully retrieved this repository's README.md using get_file_contents. Notion MCP was connected and displayed its tools; its completed search result has not been confirmed. Gmail and Google Calendar MCP URLs are configured, but those two MCP connections have not been authenticated or tested. The four services were accessed for exports using instructor-approved ChatGPT connectors.
-The public .mcp.json includes endpoint addresses only; it does not contain credentials, and the endpoints require independent authentication in a compatible client.
-Data fidelity and project limitations
-The JSON records are human-readable snapshots, not raw byte-for-byte service API payloads. Some Gmail body text was reconstructed from fictional messages originally sent; Notion content was normalized from authored test pages. The repeat-export files contain provider-backed metadata rather than complete content. The project skill documents a repeatable assisted process, not an automatic unattended downloader. The demonstration video is an edited presentation, not a continuous live capture of downloading and searching. See localStorageFormats.md, CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md, and repeatExports/2026-10-15/RETRIEVAL_LOG.md for detail.
-Do not commit any access tokens or passwords to this public repository.
+
+# Third-Party Services Dashboard
+
+**HW3 — Working With Third-Party Services**
+
+A local Python dashboard that searches test data exported from Gmail, GitHub, Notion, and Google Calendar.
+
+This project uses ChatGPT-connected applications, as approved by the instructor, and includes additional MCP server configuration and testing.
+
+## Project Overview
+
+| Component | Description |
+|---|---|
+| Services | Gmail, GitHub, Notion, Google Calendar |
+| Original data | 40 JSON records — 10 per service |
+| Repeat retrieval | 20 additional metadata records — 5 per service |
+| Dashboard | Local Python web application |
+| MCP configuration | `.mcp.json` |
+| Documentation | README, storage formats, export workflow |
+| Presentation | PowerPoint and demonstration video |
+
+## How to Run the Dashboard
+
+1. Download and extract this repository.
+2. Open Terminal in the extracted project folder.
+3. Validate the data:
+
+   `python3 validate_exports.py`
+
+4. Start the dashboard:
+
+   `python3 server.py`
+
+5. Open **http://127.0.0.1:8000** in your browser.
+
+The dashboard allows users to search all exported records or filter results by service.
+
+## Project Structure
+
+- `dataExports/` — Original JSON records, organized by service.
+- `repeatExports/2026-10-15/` — Additional retrieval metadata and retrieval log.
+- `server.py` — Searchable local dashboard.
+- `validate_exports.py` — Checks export structure.
+- `localStorageFormats.md` — Describes JSON formats.
+- `.claude/skills/data-export/SKILL.md` — AI-assisted export instructions.
+- `.mcp.json` — MCP server endpoint configuration.
+- `CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md` — Connection and retrieval documentation.
+- `third_party_services_presentation.pptx` — Presentation.
+- `third_party_services_demo_final.mp4` — Demonstration video.
+
+## MCP Configuration
+
+The `.mcp.json` file lists four service endpoints.
+
+| Service | MCP Testing Status |
+|---|---|
+| GitHub | Connected; successfully retrieved a repository file |
+| Notion | Connected; tools listed |
+| Gmail | Configured; MCP connection not independently tested |
+| Google Calendar | Configured; MCP connection not independently tested |
+
+The project's original exports were retrieved with ChatGPT-connected applications. MCP server configuration is a separate part of the project.
+
+**Security:** No access tokens or passwords are stored in the public configuration.
+
+## Data Exports
+
+The `dataExports/` folder contains 10 test records for each service.
+
+A second retrieval produced five additional metadata records per service, preserved under `repeatExports/2026-10-15/`.
+
+Records retain source identifiers and available metadata. Some content was reconstructed or normalized from test data, so these are structured snapshots rather than complete, unmodified API responses.
+
+## Repeatable Workflow
+
+The documented workflow uses ChatGPT to retrieve data, saves reviewed JSON files locally, validates their structure, and makes them searchable through the dashboard.
+
+This is an AI-assisted workflow with manual file-saving, not a fully automated export process.
+
+## Demonstration
+
+The repository includes a PowerPoint presentation and an edited demonstration video illustrating the project.
+
+The video is assembled from screenshots rather than a continuous live recording.
