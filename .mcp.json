@@ -1,27 +1,9 @@
+
 {
-  "_note": "Reference configuration only. This project uses ChatGPT connected apps instead of Claude Code MCP servers. The entries below are documentation placeholders, not active connections.",
-  "_implementation": "ChatGPT connected applications",
-  "_services": {
-    "gmail": {
-      "provider": "Google",
-      "connection_method": "ChatGPT Gmail connector",
-      "purpose": "Retrieve test email messages and metadata"
-    },
+  "mcpServers": {
     "github": {
-      "provider": "GitHub",
-      "connection_method": "ChatGPT GitHub connector",
-      "purpose": "Retrieve test repositories and metadata"
-    },
-    "notion": {
-      "provider": "Notion",
-      "connection_method": "ChatGPT Notion connector",
-      "purpose": "Retrieve test pages and content"
-    },
-    "google-calendar": {
-      "provider": "Google",
-      "connection_method": "ChatGPT Google Calendar connector",
-      "purpose": "Retrieve test calendar events"
+      "type": "streamable-http",
+      "url": "https://api.githubcopilot.com/mcp/"
     }
-  },
-  "mcpServers": {}
+  }
 }
