@@ -1,7 +1,6 @@
-
 ---
 name: data-export
-description: Retrieve third-party service test data and save consistently formatted local JSON snapshots.
+   description: Export test data from Gmail, GitHub, Notion and Google Calendar into dataExports/ as JSON, validate it, and view it in the local dashboard.
 ---
 
 # Third-Party Services Data Export Skill
