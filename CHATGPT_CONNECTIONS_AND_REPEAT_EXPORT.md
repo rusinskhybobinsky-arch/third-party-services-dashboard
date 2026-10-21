@@ -96,9 +96,9 @@ It does not query the live services when performing a dashboard search.
 The repository includes:
 
 - `third_party_services_presentation.pptx`
-- `third_party_services_demo_final.mp4`
+- `third_party_services_demo_final_new.mp4.`
 
-The demonstration video is edited from screenshots rather than recorded as one continuous live session.
+The demonstration video is a screen recording showing AI-assisted retrieval, exported records, and the locally running dashboard.
 
 ## 8. Security
 
