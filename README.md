@@ -3,82 +3,104 @@
 
 **HW3 — Working With Third-Party Services**
 
-A local Python dashboard that searches test data exported from Gmail, GitHub, Notion, and Google Calendar.
-
-This project uses ChatGPT-connected applications, as approved by the instructor, and includes additional MCP server configuration and testing.
-
 ## Project Overview
 
-| Component | Description |
-|---|---|
-| Services | Gmail, GitHub, Notion, Google Calendar |
-| Original data | 40 JSON records — 10 per service |
-| Repeat retrieval | 20 additional metadata records — 5 per service |
-| Dashboard | Local Python web application |
-| MCP configuration | `.mcp.json` |
-| Documentation | README, storage formats, export workflow |
-| Presentation | PowerPoint and demonstration video |
+This project demonstrates how AI can retrieve, organize, and search information from multiple third-party services.
+
+The project integrates data from four services:
+
+- Gmail
+- GitHub
+- Notion
+- Google Calendar
+
+ChatGPT was used as an instructor-approved alternative to Claude Code.
+
+## Project Features
+
+- 40 original JSON records across four services
+- 20 additional records from a second retrieval
+- Organized, service-specific data folders
+- Searchable local Python dashboard
+- Cross-service search and individual service filtering
+- Documented repeatable data-export workflow
+- MCP server configuration
+- PowerPoint presentation and demonstration video
 
 ## How to Run the Dashboard
 
-1. Download and extract this repository.
-2. Open Terminal in the extracted project folder.
-3. Validate the data:
+**Requirements:** Python 3.9 or newer.
 
-   `python3 validate_exports.py`
+1. Download this repository using **Code → Download ZIP**.
+2. Extract the ZIP file.
+3. Open the extracted project folder containing `server.py`.
+4. Open Terminal in that folder.
+5. Run the validation script:
 
-4. Start the dashboard:
+   ```bash
+   python3 validate_exports.py
+   ```
 
-   `python3 server.py`
+6. Start the dashboard:
 
-5. Open **http://127.0.0.1:8000** in your browser.
+   ```bash
+   python3 server.py
+   ```
 
-The dashboard allows users to search all exported records or filter results by service.
+7. Open the following address in your browser:
 
-## Project Structure
+   **http://127.0.0.1:8000**
 
-- `dataExports/` — Original JSON records, organized by service.
-- `repeatExports/2026-10-15/` — Additional retrieval metadata and retrieval log.
-- `server.py` — Searchable local dashboard.
-- `validate_exports.py` — Checks export structure.
-- `localStorageFormats.md` — Describes JSON formats.
-- `.claude/skills/data-export/SKILL.md` — AI-assisted export instructions.
-- `.mcp.json` — MCP server endpoint configuration.
-- `CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md` — Connection and retrieval documentation.
-- `third_party_services_presentation.pptx` — Presentation.
-- `third_party_services_demo_final.mp4` — Demonstration video.
+8. Use the search bar to search across all services, or select an individual service.
 
-## MCP Configuration
+To stop the website, return to Terminal and press **Control + C**.
 
-The `.mcp.json` file lists four service endpoints.
+## Project File Structure
 
-| Service | MCP Testing Status |
+| File or Folder | Purpose |
 |---|---|
-| GitHub | Connected; successfully retrieved a repository file |
-| Notion | Connected; tools listed |
-| Gmail | Configured; MCP connection not independently tested |
-| Google Calendar | Configured; MCP connection not independently tested |
+| `dataExports/` | Original exported service data |
+| `repeatExports/` | Additional retrieval records |
+| `.claude/skills/data-export/SKILL.md` | Repeatable export instructions |
+| `.mcp.json` | MCP server configuration |
+| `localStorageFormats.md` | Explanation of JSON storage formats |
+| `server.py` | Local dashboard application |
+| `validate_exports.py` | Data validation script |
+| `CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md` | Connection and retrieval documentation |
+| `third_party_services_presentation.pptx` | Project presentation |
+| `third_party_services_demo_final.mp4` | Demonstration video |
 
-The project's original exports were retrieved with ChatGPT-connected applications. MCP server configuration is a separate part of the project.
+## MCP and AI Integration
 
-**Security:** No access tokens or passwords are stored in the public configuration.
+The project includes MCP configuration entries for GitHub, Notion, Gmail, and Google Calendar.
 
-## Data Exports
+GitHub MCP was used to retrieve repository information, and Notion MCP was connected through MCP Inspector.
 
-The `dataExports/` folder contains 10 test records for each service.
+ChatGPT's connected applications were used to retrieve test data from all four services.
 
-A second retrieval produced five additional metadata records per service, preserved under `repeatExports/2026-10-15/`.
+Authentication credentials are kept outside the public repository.
 
-Records retain source identifiers and available metadata. Some content was reconstructed or normalized from test data, so these are structured snapshots rather than complete, unmodified API responses.
+## Data Storage
 
-## Repeatable Workflow
+Each service has its own subfolder within `dataExports/`. Records are saved as JSON files containing available content, source identifiers, and relevant metadata.
 
-The documented workflow uses ChatGPT to retrieve data, saves reviewed JSON files locally, validates their structure, and makes them searchable through the dashboard.
+The project also includes additional retrieval records in `repeatExports/`, demonstrating the documented AI-assisted retrieval workflow.
 
-This is an AI-assisted workflow with manual file-saving, not a fully automated export process.
+For details about storage formats and retrieval procedures, see `localStorageFormats.md` and `CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md`.
 
-## Demonstration
+## Dashboard Functionality
 
-The repository includes a PowerPoint presentation and an edited demonstration video illustrating the project.
+The dashboard reads locally stored JSON files and allows users to:
 
-The video is assembled from screenshots rather than a continuous live recording.
+- Search data across all four services
+- Filter results by a specific service
+- View matching records and their available metadata
+- Identify the service associated with each result
+
+The dashboard runs locally and does not require paid website hosting.
+
+## Presentation and Demonstration
+
+The project includes a PowerPoint presentation and a demonstration video showing the services, exported data, and dashboard.
+
+All project materials are available in this public GitHub repository.
