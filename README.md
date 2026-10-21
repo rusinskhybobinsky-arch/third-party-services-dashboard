@@ -68,7 +68,7 @@ To stop the website, return to Terminal and press **Control + C**.
 | `validate_exports.py` | Data validation script |
 | `CHATGPT_CONNECTIONS_AND_REPEAT_EXPORT.md` | Connection and retrieval documentation |
 | `third_party_services_presentation.pptx` | Project presentation |
-| `third_party_services_demo_final.mp4` | Demonstration video |
+| `third_party_services_demo_final_new.mp4` | Demonstration video |
 
 ## MCP and AI Integration
 
